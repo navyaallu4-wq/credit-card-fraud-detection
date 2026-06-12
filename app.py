@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Load Trained Model
-model = joblib.load("models/fraud_model.pkl")
+model = joblib.load("fraud_model.pkl")
 
 # Sidebar
 with st.sidebar:
